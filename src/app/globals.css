@@ -64,14 +64,14 @@ body {
 }
 
 .animate-slide {
-  animation: 15s slide linear infinite;
+  animation: 50s slide linear infinite;
 }
 
 @keyframes slide {
   from {
-    transform: translateX(0);
+    transform: translateX(-100%);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(0);
   }
 }
